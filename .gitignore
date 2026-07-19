@@ -1,0 +1,37 @@
+# Environment & secrets
+.env
+.env.local
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+
+# Data files
+data/raw/*.csv
+data/raw/*.zip
+data/processed/*.csv
+
+# Trained models
+models/*.pkl
+models/*.joblib
+models/*.pth
+models/*.h5
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
