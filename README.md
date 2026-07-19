@@ -54,75 +54,85 @@ AI-Engineering-Portfolio/
 
 1. **Clone the repository:**
 
-   ```bash
-   git clone https://github.com/javascriptsali/AI-Engineering-Portfolio.git
-   cd AI-Engineering-Portfolio
-    2-Create and activate virtual environment:
+```bash
+git clone https://github.com/javascriptsali/AI-Engineering-Portfolio.git
+cd AI-Engineering-Portfolio
+
+2. **Create and activate virtual environment:**
    
-    python -m venv venv
+python -m venv venv
 
-    # On Windows:
-    venv\Scripts\activate
+# On Windows:
+venv\Scripts\activate
 
-    # On Linux/Mac:
-    source venv/bin/activate
+# On Linux/Mac:
+source venv/bin/activate
 
-    3-Install dependencies:
-    pip install -r requirements.txt
+3. **Install dependencies:**
+pip install -r requirements.txt
 
-    4-Run the web application:
-    streamlit run app/streamlit_app.py
+4. **Run the web application:**
+streamlit run app/streamlit_app.py
 
-    5-Open your browser:
-    Navigate to http://localhost:8501
+5. **Open your browser:**
+Navigate to http://localhost:8501
 
 📊 Model Performance
-Training Metrics
-Accuracy: 99.9%
-Precision: 100%
-Recall: 100%
-F1-Score: 100%
-Key Features Identified
-Support Calls (28.9% importance)
-Total Spend (22.1% importance)
-Age (14.1% importance)
-Contract Length - Monthly (13.6% importance)
-Payment Delay (12.4% importance)
-🔧 Technical Stack
-Programming Language: Python 3.13
-Machine Learning: Scikit-Learn (Random Forest)
-Data Processing: Pandas, NumPy
-Visualization: Matplotlib, Seaborn
-Web Framework: Streamlit
-Version Control: Git & GitHub
-📈 Business Impact
-This system helps businesses:
-🎯 Identify at-risk customers before they churn
-Reduce customer acquisition costs by retaining existing customers
-📊 Make data-driven decisions for customer retention strategies
-⚡ Take proactive actions with AI-powered recommendations
-🔮 Future Improvements
-Deploy on Streamlit Cloud for public access
-Add user authentication and customer database integration
-Implement A/B testing for retention strategies
-Add automated retraining pipeline with new data
-Integrate with CRM systems (Salesforce, HubSpot)
-Add email notification system for high-risk customers
-📝 Lessons Learned
-Challenges Faced
-Covariate Shift: Discovered significant distribution differences between training and testing datasets
-Data Leakage Prevention: Implemented proper train-test split and validation strategies
-Feature Engineering: Learned the importance of proper categorical encoding with drop_first=True
-Best Practices Applied
-✅ Modular code structure following SOLID principles
-✅ Type hints for better code documentation
-✅ Comprehensive error handling
-✅ Environment variable management with .env files
-✅ Git version control with meaningful commit messages
-👨‍💻 Author
-Saleh Bakhtiyari
-linkedin.com/in/deve-loper-4870b5376
-[GitHub Profile](https://github.com/javascriptsali)
-📄 License
-This project is open source and available under the MIT License.
-If you found this project helpful, please give it a ⭐ on GitHub!
+    Training Metrics
+        Accuracy: 99.9%
+        Precision: 100%
+        Recall: 100%
+        F1-Score: 100%
+
+    Key Features Identified
+        Support Calls (28.9% importance)
+        Total Spend (22.1% importance)
+        Age (14.1% importance)
+        Contract Length - Monthly (13.6% importance)
+        Payment Delay (12.4% importance)
+
+    🔧Technical Stack
+        Programming Language: Python 3.13
+        Machine Learning: Scikit-Learn (Random Forest)
+        Data Processing: Pandas, NumPy
+        Visualization: Matplotlib, Seaborn
+        Web Framework: Streamlit
+        Version Control: Git & GitHub
+
+    📈 Business Impact
+
+    This system helps businesses:
+        🎯 Identify at-risk customers before they churn
+        Reduce customer acquisition costs by retaining existing customers
+        📊 Make data-driven decisions for customer retention strategies
+        ⚡ Take proactive actions with AI-powered recommendations
+
+    🔮Future Improvements
+        Deploy on Streamlit Cloud for public access
+        Add user authentication and customer database integration
+        Implement A/B testing for retention strategies
+        Add automated retraining pipeline with new data
+        Integrate with CRM systems (Salesforce, HubSpot)
+        Add email notification system for high-risk customers
+
+    📝Lessons Learned
+        Challenges Faced
+        Covariate Shift: Discovered significant distribution differences between training and testing datasets
+        Data Leakage Prevention: Implemented proper train-test split and validation strategies
+        Feature Engineering: Learned the importance of proper categorical encoding with drop_first=True
+
+    Best Practices Applied
+        ✅ Modular code structure following SOLID principles
+        ✅ Type hints for better code documentation
+        ✅ Comprehensive error handling
+        ✅ Environment variable management with .env files
+        ✅ Git version control with meaningful commit messages
+
+    👨‍💻Author
+        Saleh Bakhtiyari
+        linkedin.com/in/deve-loper-4870b5376
+        [GitHub Profile](https://github.com/javascriptsali)
+
+    📄License
+        This project is open source and available under the MIT License.
+        If you found this project helpful, please give it a ⭐ on GitHub!
