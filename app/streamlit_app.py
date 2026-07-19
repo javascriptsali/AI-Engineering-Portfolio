@@ -41,7 +41,7 @@ def main():
     
     st.sidebar.markdown("---")
     st.sidebar.markdown("###  Project Links")
-    st.sidebar.markdown("[GitHub Repository](https://github.com/yourusername/AI-Engineering-Portfolio)")
+    st.sidebar.markdown("[GitHub Repository](https://github.com/javascriptsali/AI-Engineering-Portfolio)")
     
     # Main Header
     st.title("🎯 Customer Churn Prediction System")
